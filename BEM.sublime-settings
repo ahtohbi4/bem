@@ -1,0 +1,45 @@
+{
+    "log_path": "",
+    "blocks_path": "",
+    "tech": {
+        "bemhtml": {
+            "filetype": ".bemhtml",
+            "alias": ["-b", "--bemhtml"]
+        },
+        "deps": {
+            "filetype": ".deps.js",
+            "alias": ["-d", "--deps"]
+        },
+        "js": {
+            "filetype": ".js",
+            "alias": ["-j", "--js"]
+        },
+        "css": {
+            "filetype": ".css",
+            "alias": ["-c", "--css"]
+        }
+    },
+    "tech_files_content": {
+        "block": {
+            "bemhtml": "block {block} {{}}\n",
+            "deps": "({{\n    mustDeps: [],\n    shouldDeps: [{dep}]\n}})\n",
+            "css": ".{block} {{}}\n",
+            "js": ""
+        },
+        "mod": {
+            "bemhtml": "block {block}, mod {mod} {value} {{}}\n",
+            "css": ".{block}_{mod}_{value} {{}}\n",
+            "js": ""
+        },
+        "elem": {
+            "bemhtml": "block {block}, elem {elem} {{}}\n",
+            "css": ".{block}__{elem} {{}}\n",
+            "js": ""
+        },
+        "elemMod": {
+            "bemhtml": "block {block}, elem {elem}, mod {elemMod} {value} {{}}\n",
+            "css": ".{block}__{elem}_{elemMod}_{value} {{}}\n",
+            "js": ""
+        }
+    }
+}

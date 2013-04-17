@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "-"
+    },
+    {
+        "caption": "BEM",
+        "children": [
+            {
+                "caption": "Bem Create",
+                "command": "bem_create"
+            },
+            {
+                "caption": "Help",
+                "command": "bem_help"
+            }
+        ]
+    }
+]
