@@ -44,7 +44,7 @@ def create_file(path, name, content=''):
 
     except:
         sublime.status_message("Unable to create file " + name)
-        
+
         return "FAIL: Unable to create file '%s' in '%s'." % (name, path)
 
 

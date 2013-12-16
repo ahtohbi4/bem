@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+({
+    ${1:s}${1/(s)|(m).*/(?1:houldDeps)(?2:ustDeps)/}: ${0}
+})
+
+]]></content>
+    <tabTrigger>deps</tabTrigger>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

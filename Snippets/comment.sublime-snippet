@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @param {${1:O}${1/(A)|(B)|(N)|(O)|(S).*/(?1:rray)(?2:ool)(?3:umber)(?4:bject)(?5:tring)/}} ${0:data}
+ */
+
+]]></content>
+    <tabTrigger>/**</tabTrigger>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
