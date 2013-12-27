@@ -2,7 +2,7 @@
     <content><![CDATA[
 block('${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+.bemhtml$/$1/}')(
 
-    ${1:c}${1/(t)|(c)|(d)|(a)|(j)|(b)|(mo)|(mi)|(m)|(e).*/(?1:ag)(?2:ontent)(?3:ef)(?4:ttrs)(?5:s)(?6:em)(?7:de)(?8:x)(?9:ix)(?10:lem)/}(${2})(${3}${3/(function)|(functio)|(functi)|(funct)|(func)|(fun)|(fu)|(f).*/(?1: \(\) {})(?2:n \(\) {})(?3:on \(\) {})(?4:ion \(\) {})(?5:tion \(\) {})(?6:ction \(\) {})(?7:nction \(\) {})(?8:unction \(\) {})/})
+    ${1:c}${1/(t)|(c)|(d)|(a)|(j)|(b)|(mo)|(mi)|(m)|(e).*/(?1:ag)(?2:ontent)(?3:ef)(?4:ttrs)(?5:s)(?6:em)(?7:de)(?8:x)(?9:ix)(?10:lem)/}(${2})(${3}${3/(function)|(functio)|(functi)|(funct)|(func)|(fun)|(fu)|(f).*/(?1: \(\) {})(?2:n \(\) {})(?3:on \(\) {})(?4:ion \(\) {})(?5:tion \(\) {})(?6:ction \(\) {})(?7:nction \(\) {})(?8:unction \(\) {})/})${0}
 )
 
 ]]></content>
