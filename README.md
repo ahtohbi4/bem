@@ -1,4 +1,4 @@
-Плагин для Sublime Text 2 и БЭМ
+Плагин для Sublime Text 2 и БЭМ [![Codacy Badge](https://api.codacy.com/project/badge/grade/ee9bd49152dd404194dd25debc7a7415)](https://www.codacy.com/app/alexandr-post/sublime-text-bem-creator)
 ===============================
 
 Плагин позволяет одной командой, не выходя из редактора, создавать БЭМ-сущности и заготовки файлов-технологий
